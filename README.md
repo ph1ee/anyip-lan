@@ -1,11 +1,11 @@
 # Usage
 
-Listen broadcast packets to 127.255.255.2:0xcafe and report IP address 192.168.0.120
+Listen broadcast packets at port 0xcafe
 ```sh
-./anyips 127.255.255.2:0xcafe 192.168.0.120
+./anyips 0xcafe
 ```
 
-Broadcast packets to 127.255.255.2:0xcafe and wait for response at 192.168.0.120:0xcafe
+Broadcast UDP packets to port 0xcafe
 ```sh
-./anyipc 127.255.255.2:0xcafe 192.168.0.120:0xcafe
+./anyipc 0xcafe
 ```

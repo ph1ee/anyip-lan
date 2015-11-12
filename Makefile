@@ -3,10 +3,10 @@ CFLAGS := -Wall
 
 all: $(BIN)
 
-anyipc: anyipc.o mkaddr.o
+anyipc: anyipc.o
 	$(CC) $(LDFLAGS) $^ $(LDLIBS) -o $@ -lpthread
 
-anyips: anyips.o mkaddr.o
+anyips: anyips.o
 	$(CC) $(LDFLAGS) $^ $(LDLIBS) -o $@
 
 clean:
